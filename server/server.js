@@ -9,7 +9,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 const corsOptions = {
-    origin: 'https://your-frontend.onrender.com', // Update with your deployed frontend's URL
+    origin: 'https://tdsweb-be.onrender.com', // Update with your deployed frontend's URL
     optionsSuccessStatus: 200
 };
 
