@@ -1,0 +1,66 @@
+.episode-item {
+    display: flex;
+    align-items: flex-start; /* Align items at the start of the flex container */
+    border: 1px solid #ccc;
+    padding: 10px;
+    
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #0c0c0c;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.video-container {
+    flex: 1; /* Takes as much width as it can */
+    padding-right: 0; /* Space between video and description */
+}
+
+.video-container iframe {
+    width: 60%; /* Adjusts width of the iframe to fill container */
+    height: 250px; /* Adjust height as needed */
+    border-radius: 10px; /* Optional: Adds rounded corners to the video */
+}
+
+.episode-content {
+    flex: 1; /* Takes twice the space compared to video container */
+    display: flex;
+    flex-direction: column; /* Stack description and buttons vertically */
+}
+
+.episode-content h3 {
+    color: #f6f3f3;
+    padding-left: 15px;
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.episode-content p {
+    flex-grow: 2; /* Allows description to fill the space */
+    color: #fcfafa;
+    padding-left: 15px;;
+    margin-bottom: 20px; /* Space above buttons */
+}
+
+.episode-actions {
+    display: flex;
+    align-items: center; /* Align buttons and link centrally */
+    padding: 20px;
+}
+
+.button, .episode-item button, .episode-item a {
+    margin-right: 10px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    text-decoration: none; /* Removes underline from links */
+}
+
+.button:hover, .episode-item button:hover, .episode-item a:hover {
+    background-color: #0056b3;
+}
+
+.episode-item a {
+    background-color: green; /* Specific styles for download link */
+}

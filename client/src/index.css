@@ -1,0 +1,143 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  background-color: #333;
+  padding-top: 70px; /* Adds padding to the top of the body to push everything down */
+}
+
+html{
+  scroll-behavior: Smooth;
+}
+
+header {
+  text-align: center;
+  background-color: darkorange;
+  padding: 20px 20px 40px; /* Adds more padding below the header */
+  position: relative; /* Ensures the header is positioned relative to other elements */
+  z-index: 10; /* Lower z-index than nav to keep it under the nav if they overlap */
+}
+
+#logo img {
+  width: 150px; /* Adjust based on your actual logo size */
+}
+
+#logo p {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 22px;
+}
+
+nav.sticky-nav {
+  background-color: rgba(128, 128, 128, 0.5); /* Semi-transparent background */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; /* High z-index to keep nav on top */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: Adds subtle shadow for better visibility */
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  margin: 0; /* Removes default margin */
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px; /* Adds padding for better touch area and visibility */
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover{
+  color: #FFA500;
+  background-color: #555;
+}
+
+nav ul li a.active {
+  color: orange;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px; /* Adjust this value based on your design preference */
+  margin: auto; /* This centers the main content horizontally */
+  padding: 20px;
+}
+
+.zigzag-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Ensures content wraps on smaller screens */
+  margin-bottom: 40px;
+}
+
+.right-image .content, .left-image .content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.right-image img, .left-image img {
+  flex: 1;
+  width: 15%; /* Manages the width of images */
+  max-width: 300px; /* Maximum width for images */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 10px; /* Optional rounded corners for aesthetics */
+}
+
+blockquote {
+  font-style: italic;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+#social-media {
+  background-color: #404040;  /* Dark background for contrast */
+  color: #ffffff;  /* White text for readability */
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px; /* Optional styling */
+  margin: 20px 0;
+}
+
+#social-media h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px; /* Space between title and links */
+}
+
+#social-media .links a {
+  text-decoration: none;
+  color: #FFA500; /* Bright orange for high contrast and brand consistency */
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0 10px; /* Space between links */
+  font-size: 1.2em;
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#social-media .links a:hover {
+  color: #ffffff; /* Changes color on hover for better interaction feedback */
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #222;
+}

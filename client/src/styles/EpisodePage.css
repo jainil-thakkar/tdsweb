@@ -1,0 +1,53 @@
+/* EpisodesPage.css */
+.categories {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 200px;
+  background: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  z-index: 100;
+}
+
+.category-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  background: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.category-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .categories {
+      position: static;
+      width: 100%;
+      transform: none;
+      display: block;
+  }
+
+  .category-button {
+      width: 100%;
+  }
+}
+
+.episode-list {
+  margin-left: 200px;
+}
+
+@media (max-width: 768px) {
+  .episode-list {
+      margin-left: 0;
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.de29187d.css",
+    "main.js": "/static/js/main.a6b62b58.js",
+    "static/js/453.1457fd12.chunk.js": "/static/js/453.1457fd12.chunk.js",
+    "static/media/PicGT_1.jpg": "/static/media/PicGT_1.867ea34a3079bf4bc915.jpg",
+    "static/media/iglogo.png": "/static/media/iglogo.8a42769f6cec0b2aef8a.png",
+    "static/media/bashir.jpg": "/static/media/bashir.7c9498e75b9f671b9d6a.jpg",
+    "static/media/davidpeters.png": "/static/media/davidpeters.a07f6032337b9ba59731.png",
+    "static/media/video_capture.JPEG": "/static/media/video_capture.fae45c6709e16f297234.JPEG",
+    "static/media/derek.jpg": "/static/media/derek.ceb6e6d8752dc270da83.jpg",
+    "static/media/tdshost.jpg": "/static/media/tdshost.0623e10eea208256e95a.jpg",
+    "static/media/Meal_With_DrCuneyt.jpg": "/static/media/Meal_With_DrCuneyt.e85424d7886576d0515b.jpg",
+    "static/media/logo.png": "/static/media/logo.31fce89294200752caf1.png",
+    "static/media/host.jpg": "/static/media/host.44700cd0c0910d599757.jpg",
+    "static/media/contact.jpg": "/static/media/contact.8842e2dae6d591978d6e.jpg",
+    "static/media/intuitionpay.jpg": "/static/media/intuitionpay.d41aedf54102f72d7045.jpg",
+    "static/media/photo12.jpg": "/static/media/photo12.67fdc2624bcec5e02d94.jpg",
+    "static/media/podcast.jpg": "/static/media/podcast.e418d1fbce476b2fe301.jpg",
+    "static/media/thumbnail.jpg": "/static/media/thumbnail.8bc49b3659dbf99e784b.jpg",
+    "static/media/lilogo.jpg": "/static/media/lilogo.f9d8d3c2252055262651.jpg",
+    "index.html": "/index.html",
+    "main.de29187d.css.map": "/static/css/main.de29187d.css.map",
+    "main.a6b62b58.js.map": "/static/js/main.a6b62b58.js.map",
+    "453.1457fd12.chunk.js.map": "/static/js/453.1457fd12.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de29187d.css",
+    "static/js/main.a6b62b58.js"
+  ]
+}
